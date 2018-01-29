@@ -1,21 +1,29 @@
 # notes-app
 
-> A Vue.js project
+* 为了学习Vuex写的一个简单记事app
 
-## Build Setup
+* 使用了 Vue + Vuex + ElementUI + Less
 
-``` bash
-# install dependencies
-npm install
+* 参考案例:[Learn Vuex by Building a Notes App](https://coligo.io/learn-vuex-by-building-notes-app/)
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
+### 启动项目
 
-# build for production and view the bundle analyzer report
-npm run build --report
+* step1 拷贝本项目到本地
+
+```
+git clone https://github.com/hongzzz/notes-app.git
+cd notes-app
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* step2 下载依赖
+
+```
+yarn install // 或者 npm install
+```
+
+* step3 启动
+
+```
+yarn run dev // 或者 npm run dev
+```
